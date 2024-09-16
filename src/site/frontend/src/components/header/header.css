@@ -1,0 +1,8 @@
+.header {
+	background-color: var(--backgorung-color);
+}
+
+.logo {
+	height: 80px;
+	width: 80px;
+}
