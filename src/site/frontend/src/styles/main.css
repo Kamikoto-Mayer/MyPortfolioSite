@@ -27,8 +27,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-  
-
 
 :root {
 	--font-family: "Roboto-Regular", sans-serif;
@@ -45,7 +43,6 @@
 
 body {
 	font-family: var(--font-family);
-	background-color: var(--backgorung-color);
 }
 
 .container {

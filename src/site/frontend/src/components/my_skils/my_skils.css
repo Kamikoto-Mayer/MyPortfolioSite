@@ -1,0 +1,36 @@
+
+.my_skils__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.my_skils__wrapper {
+	max-width: 700px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.my_skils__title {
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 32px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.my_skilst__list {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.my_skils__item {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+}

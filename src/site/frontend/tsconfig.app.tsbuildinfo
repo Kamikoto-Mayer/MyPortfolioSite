@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/about_me/about_me.tsx","./src/components/footer/footer.tsx","./src/components/header/header.tsx","./src/components/menu/menu.tsx","./src/components/my_skils/my_skils.tsx","./src/pages/home_page/home_page.tsx"],"version":"5.6.2"}
