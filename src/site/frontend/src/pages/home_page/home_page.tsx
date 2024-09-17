@@ -5,7 +5,7 @@ import Header from "../../components/header/header";
 function HomePage() {
 	return (
 	<>
-		<Header title_name="Sapelnikov" />
+		<Header title_name="Sapelnikov" text="hello wotld"/>
 	</>
 	);
 }

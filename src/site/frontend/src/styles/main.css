@@ -1,7 +1,40 @@
 @import url(null_sytle.css);
 
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../assets/fonts/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'League Spartan';
+	src: url('../assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+  
+
+
 :root {
-	--font-family: "Roboto", sans-serif;
+	--font-family: "Roboto-Regular", sans-serif;
+	--font-family-bold: "Roboto-Bold", sans-serif;
+	--second-family: "League Spartan", sans-serif;
+	--third-family: "League Gothic", sans-serif;
 
 	--text-color: #000;
 	--white-color: #fff;
