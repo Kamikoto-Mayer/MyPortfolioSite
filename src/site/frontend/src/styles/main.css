@@ -38,7 +38,7 @@
 	--white-color: #fff;
 	--gray-color: #D9D9D9;
 	/* --backgorung-color: #0B0E17; */
-	--backgorung-color: #1E1E1E;;
+	--backgorung-color: #161616;;
 }
 
 body {
@@ -48,4 +48,26 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.hover {
+	transition: all 0.3s ease;
+	border-bottom: 0 solid #fff;
+	text-decoration: none;
+}
+
+.hover__black {
+	transition: all 0.3s ease;
+	border-bottom: 0 solid #000;
+	text-decoration: none;
+}
+
+.hover:hover {
+	cursor: pointer;
+	border-bottom-width: 1px;
+}
+
+.hover__black:hover {
+	cursor: pointer;
+	border-bottom-width: 3px;
 }
