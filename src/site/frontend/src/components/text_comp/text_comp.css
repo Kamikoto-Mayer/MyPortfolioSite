@@ -1,0 +1,26 @@
+.text_comp__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text_comp__wrapper {
+	max-width: 700px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.text_comp__title {
+	font-family: var(--second-family);
+	font-weight: bold;
+	font-size: 32px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.text_comp__text {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+}

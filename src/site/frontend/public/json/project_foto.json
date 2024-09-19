@@ -1,0 +1,27 @@
+[
+	{
+	  "id": 1,
+	  "title": "MyPortfolioSite",
+	  "description": "Описание проекта 1",
+	  "tech_used": "HTML, CSS, TS, JS, React, Vite, Docker, Git, Grafana, Nginx",
+	  "image": "https://i.ibb.co/gt6hkQc/My-Portfolio-Site.webp"
+	},
+	{
+	  "id": 2,
+	  "title": "s21_containers",
+	  "description": "Описание проекта 2",
+	  "image": "https://i.ibb.co/0mG61q5/s21-containers.webp"
+	},
+	{
+	  "id": 3,
+	  "title": "s21_decimal",
+	  "description": "Описание проекта 3",
+	  "image": "https://i.ibb.co/PM8LgrR/s21-decimal.webp"
+	},
+	{
+	  "id": 4,
+	  "title": "GK-Imperi",
+	  "description": "Описание проекта 4",
+	  "image": "https://i.ibb.co/K72hCKp/gk-imperia.webp"
+	}
+]

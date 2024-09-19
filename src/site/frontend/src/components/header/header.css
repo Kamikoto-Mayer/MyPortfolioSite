@@ -68,7 +68,7 @@
   }
   
   .burger-menu__active .burger-menu__line:nth-child(2) {
-	transform: rotate(-45deg) translate(2px, -2px);
+	transform: rotate(-45deg) translate(2px, -3px);
 	border: 2px solid #000;
 	width: 32px;
 	height: 0px;

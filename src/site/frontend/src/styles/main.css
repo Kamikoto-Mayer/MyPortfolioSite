@@ -71,3 +71,9 @@ body {
 	cursor: pointer;
 	border-bottom-width: 3px;
 }
+
+@media (max-width: 1200px) {
+	.container {
+		padding: 0 20px;
+	}
+}
