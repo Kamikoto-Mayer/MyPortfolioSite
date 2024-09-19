@@ -1,4 +1,5 @@
 import "./footer.css"
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
 	return (
@@ -8,9 +9,9 @@ export default function Footer() {
 					<div className="footer__navigation">
 						<nav className="footer__nav">
 							<ul className="footer__list">
-								<li className="footer__item"><a href="#" className="hover">Проекты</a></li>
-								<li className="footer__item"><a href="#" className="hover">Обо мне</a></li>
-								<li className="footer__item"><a href="#" className="hover">Контакты</a></li>
+								<li className="footer__item"><NavLink to="/projects" className="hover" onClick={() => window.scrollTo(0, 0)}>Проекты</NavLink></li>
+								<li className="footer__item"><NavLink to="/about" className="hover" onClick={() => window.scrollTo(0, 0)}>Обо мне</NavLink></li>
+								<li className="footer__item"><NavLink to="/contacts" className="hover" onClick={() => window.scrollTo(0, 0)}>Контакты</NavLink></li>
 							</ul>
 						</nav>
 					</div>
@@ -21,7 +22,7 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div className="footer__logo">
-						<img src="/LogoWhite.svg" alt="logo" />
+						<NavLink to="/"><img src="/LogoWhite.svg" alt="logo" onClick={() => window.scrollTo(0, 0)}/></NavLink>
 					</div>
 				</div>
 			</div>

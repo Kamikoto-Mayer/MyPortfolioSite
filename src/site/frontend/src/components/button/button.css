@@ -1,0 +1,33 @@
+.button {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.button-item {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+	background: #d9d9d9;
+	padding: 18px 59px;
+	position: relative;
+	transition: all 0.5s ease-in-out;
+	display: flex;
+	/* align-items: center; */
+	gap: 10px;
+}
+
+.button-item:before {
+	content: url('/Icon.svg');
+	display: block;
+	width: 15px;
+	height: 15px;
+	/* background-image: url('/Icon.svg'); */
+	background-repeat: no-repeat;
+	background-position: left;
+	transition: all 0.5s ease-in-out;
+}

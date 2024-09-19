@@ -11,7 +11,7 @@ function HomePage() {
 		<Header title_name="Sapelnikov" text="DevOps-engineer"/>
 		<AboutMe />
 		<MySkils />
-		<ProjectHome />
+		<ProjectHome volume={3} />
 		<Footer />
 	</>
 	);

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import Menu from "../menu/menu";
 import "./header.css";
 
@@ -30,7 +31,7 @@ export default function Header(props: HeaderProps) {
 			<div className="container">
 				<div className="header__top-bar">
 					<div className="header__logo">
-						<img src="/LogoWhite.svg" alt="logo" />
+						<NavLink to="/"><img src="/LogoWhite.svg" alt="logo" /></NavLink>
 					</div>
 					<div className={`burger-menu ${isOpen ? 'burger-menu__active' : ''}`} onClick={handleMenuClick} >
 						<div className="burger-menu__lines">
