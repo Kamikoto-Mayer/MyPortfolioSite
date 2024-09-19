@@ -1,4 +1,5 @@
 import "./text_comp.css"
+import { isValidElement } from 'react';
 
 interface TextCompProps {
 	title: string,
@@ -15,7 +16,8 @@ export default function TextComp(props: TextCompProps) {
 						<h2>{props.title}</h2>
 					</div>
 					<div className="text_comp__text">
-						<p>{props.text}</p>
+						{/* <p>{props.text}</p> */}
+						{isValidElement(props.text) ? props.text : <p>{props.text.toString()}</p>}
 					</div>
 				</div>
 			</div>

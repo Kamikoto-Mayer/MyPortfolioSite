@@ -81,9 +81,9 @@
 }
 
 @media (max-width: 776px) {
-	.project_home__wrapper {
-		padding: 10px
-	}
+	/* .project_home__wrapper {
+		padding: 20px
+	} */
 
 	.project_home__button {
 		gap: 20px;

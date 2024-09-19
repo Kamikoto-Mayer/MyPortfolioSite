@@ -36,3 +36,9 @@
 .footer__item_link:first-child {
 	padding-bottom: 20px;
 }
+
+@media (max-width: 776px) {
+	.footer__wrapper {
+		gap: 20px;
+	}
+}

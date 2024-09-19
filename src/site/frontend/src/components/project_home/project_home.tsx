@@ -2,12 +2,19 @@ import { useEffect, useState } from "react";
 import "./project_home.css";
 import { NavLink } from "react-router-dom";
 
+interface ProjectItem {
+	id: number;
+	image: string;
+	title: string;
+	tech_used: string;
+  }
+
 interface Project {
 	volume: number;
 }
 
 export default function ProjectHome(props: Project) {
-	const [project, setProjects] = useState([]);
+	const [project, setProjects] = useState<ProjectItem[]>([]);
 	useEffect(() => {
 		fetch('/json/project_foto.json')
 		  .then(response => response.json())
