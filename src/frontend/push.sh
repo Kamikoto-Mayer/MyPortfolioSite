@@ -1,5 +1,5 @@
 #!bin/bash
 
-cd ../../../
+cd ../../
 make push
 cd src/site/frontend
