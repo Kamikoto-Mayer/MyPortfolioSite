@@ -20,7 +20,7 @@ export default function Form() {
 							</div>
 							<div className="form__input form__input-message">
 								<label htmlFor="message" className="form__label">Сообщение</label>
-								<textarea name="message" id="message" placeholder="Сообщение" rows="1" cols="1" required/>
+								<textarea name="message" id="message" placeholder="Сообщение" rows={1} cols={1} required/>
 							</div>
 							<div className="form__button button">
 								<button className="button-form button-item" type="submit">Отправить</button>
