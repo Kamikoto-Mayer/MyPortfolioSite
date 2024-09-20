@@ -17,7 +17,6 @@
 	position: relative;
 	transition: all 0.5s ease-in-out;
 	display: flex;
-	/* align-items: center; */
 	gap: 10px;
 }
 
@@ -26,7 +25,6 @@
 	display: block;
 	width: 15px;
 	height: 15px;
-	/* background-image: url('/Icon.svg'); */
 	background-repeat: no-repeat;
 	background-position: left;
 	transition: all 0.5s ease-in-out;

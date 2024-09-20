@@ -22,8 +22,7 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div className="footer__logo">
-					{window.innerWidth < 768 ? <NavLink to="/"><img src="/LogoWhiteSmall.svg" alt="logo" onClick={() => window.scrollTo(0, 0)}/></NavLink> : <NavLink to="/"><img src="/LogoWhite.svg" alt="logo" onClick={() => window.scrollTo(0, 0)}/></NavLink>}
-
+						{window.innerWidth < 768 ? <NavLink to="/"><img src="/LogoWhiteSmall.svg" alt="logo" /></NavLink> : <NavLink to="/"><img src="/LogoWhite.svg" alt="logo" /></NavLink>}
 					</div>
 				</div>
 			</div>
